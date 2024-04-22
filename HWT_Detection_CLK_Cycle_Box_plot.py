@@ -37,7 +37,7 @@ def calculate_propagation_delays(clock_signal, output_signal):
     return delay_values
 
 if __name__ == "__main__":
-    directory_path = r'C:\Users\Jeremy Hong\Documents\EE-4550\Final_Project\HWT\Trojan_Buffer_Chain\10MHz'
+    directory_path = r'{your_directory_path}'
     print(f'Processing files in directory: {directory_path}')
     fpga_clock_delays = {}
     fpga_cycle_delays = {}
